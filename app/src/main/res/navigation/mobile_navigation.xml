@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/tankSplash">
+
+    <fragment
+        android:id="@+id/tankSplash"
+        android:name="com.pinious.pipin.game.TankSplash"
+        android:label="fragment_tank_splash"
+        tools:layout="@layout/fragment_tank_splash" >
+        <action
+            android:id="@+id/action_tankSplash_to_tankMain"
+            app:destination="@id/tankMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/tankMain"
+        android:name="com.pinious.pipin.game.TankMain"
+        android:label="fragment_tank_main"
+        tools:layout="@layout/fragment_tank_main" >
+        <action
+            android:id="@+id/action_tankMain_to_tankProfile"
+            app:destination="@id/tankProfile" />
+        <action
+            android:id="@+id/action_tankMain_to_tankView"
+            app:destination="@id/tankView" />
+    </fragment>
+    <fragment
+        android:id="@+id/tankProfile"
+        android:name="com.pinious.pipin.game.TankProfile"
+        android:label="fragment_tank_profile"
+        tools:layout="@layout/fragment_tank_profile" >
+        <action
+            android:id="@+id/action_tankProfile_to_tankView"
+            app:destination="@id/tankView" />
+        <action
+            android:id="@+id/action_tankProfile_to_tankMain"
+            app:destination="@id/tankMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/tankView"
+        android:name="com.pinious.pipin.game.TankView"
+        android:label="fragment_tank_view"
+        tools:layout="@layout/fragment_tank_view" >
+        <action
+            android:id="@+id/action_tankView_to_tankMain"
+            app:destination="@id/tankMain" />
+    </fragment>
+</navigation>

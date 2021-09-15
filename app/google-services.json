@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463715109171",
+    "project_id": "compiniouspipingame",
+    "storage_bucket": "compiniouspipingame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463715109171:android:d3887c69d4944540f99646",
+        "android_client_info": {
+          "package_name": "com.pinious.pipin.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463715109171-mjkumlgh2aotl1aj39fr3unkvcs2tfpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOuex8s8Ukwb77QDYqa_a3xWGcyFD40Mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463715109171-mjkumlgh2aotl1aj39fr3unkvcs2tfpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

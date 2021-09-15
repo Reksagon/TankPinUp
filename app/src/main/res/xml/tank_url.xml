@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultMap>
+    <entry>
+        <key>tank</key>
+        <value>tank</value>
+    </entry>
+    <entry>
+        <key>tank_add</key>
+        <value>tank_add</value>
+    </entry>
+</defaultMap>

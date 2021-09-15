@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.TankPinUp.FullscreenContainer"
+    tools:context=".TankView">
+
+    <com.mackhartley.roundedprogressbar.RoundedProgressBar
+        android:id="@+id/advanced_bar"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rpbBackgroundColor="#2F3135"
+        app:rpbBackgroundTextColor="@color/white"
+        app:rpbCornerRadius="4dp"
+        app:rpbProgressColor="#E13D22"
+        app:rpbTextPadding="20dp"
+        app:rpbTextSize="10dp" />
+
+    <WebView
+        android:id="@+id/tank_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

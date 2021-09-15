@@ -1,0 +1,4 @@
+rootProject.name = "TankPinUp"
+include ':app'
+include ':unityLibrary'
+include ':launcher'
